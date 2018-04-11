@@ -1,0 +1,10 @@
+In the main deploy file
+ 1.  enter your subscriptionId
+ 2. resourceGroupName
+ 3. resourceGroupLocation
+ 4. deploymentName
+ 5. enter your azure id and password
+In the parameter.json
+ 1 . replace the existing VM name with new vname in the complete file
+ 2 . select the machine size as per your req.. 
+ 3 .provide your password for vm
