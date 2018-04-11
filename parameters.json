@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralindia"
+        },
+        "virtualMachineName": {
+            "value": "WindowsArmVm"
+        },
+        "virtualMachineSize": {
+            "value": "Basic_A2"
+        },
+        "adminUsername": {
+            "value": "shubham"
+        },
+        "virtualNetworkName": {
+            "value": "shubhResource-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "windowsarmvm557"
+        },
+        "networkSecurityGroupName": {
+            "value": "WindowsArmVm-nsg"
+        },
+        "adminPassword": {
+            "value": "shubham@1234"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "shubhresourcediag415"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/shubhresourcediag415"
+        },
+        "addressPrefix": {
+            "value": "10.1.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.1.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "WindowsArmVm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
